@@ -1,25 +1,50 @@
-# Expense Sharing Backend 
+# Expense Sharing Backend (Splitwise-like)
 
-This is a backend system designed for an expense sharing application similar to Splitwise.
+This project is a backend system for an expense sharing application similar to Splitwise.
+It was developed as part of a campus placement design assignment for CredResolve.
 
-## Features
-- Equal expense split
-- Exact amount split
-- Percentage split
-- Balance tracking (who owes whom)
-- Balance simplification
-- REST APIs using FastAPI
+The system focuses on backend architecture, business logic, and API design for managing
+shared expenses and simplified balance settlements.
 
-## Tech Stack
-- Python
-- FastAPI
-- Uvicorn
+---
 
-## API Endpoints
-- POST /expense/equal
-- POST /expense/exact
-- POST /expense/percent
-- GET  /balances
+## 🚀 Features
+
+- Create shared expenses between users
+- Supported split types:
+  - Equal split
+  - Exact amount split
+  - Percentage split
+- Track who owes whom
+- Automatically simplify balances to minimize transactions
+- RESTful APIs with interactive Swagger documentation
+
+---
+
+## 🛠️ Tech Stack
+
+- Language: Python
+- Framework: FastAPI
+- Server: Uvicorn
+- API Documentation: Swagger (OpenAPI)
+
+---
+
+## 📌 API Endpoints
+
+### Add Expenses
+- `POST /expense/equal` – Add an equal split expense
+- `POST /expense/exact` – Add an exact amount split expense
+- `POST /expense/percent` – Add a percentage split expense
+
+### View Balances
+- `GET /balances` – View simplified balances (who owes whom)
+
+---
+
+## 🧪 API Testing (Swagger)
+
+Once the server is running, APIs can be tested using Swagger UI:
 
 ## How to Run Locally
 pip install -r requirements.txt  
