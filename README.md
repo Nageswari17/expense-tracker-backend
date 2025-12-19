@@ -6,7 +6,7 @@ It was developed as part of a campus placement design assignment for CredResolve
 The system focuses on backend architecture, business logic, and API design for managing
 shared expenses and simplified balance settlements.
 
----
+
 
 ## 🚀 Features
 
@@ -19,7 +19,7 @@ shared expenses and simplified balance settlements.
 - Automatically simplify balances to minimize transactions
 - RESTful APIs with interactive Swagger documentation
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -28,7 +28,7 @@ shared expenses and simplified balance settlements.
 - Server: Uvicorn
 - API Documentation: Swagger (OpenAPI)
 
----
+
 
 ## 📌 API Endpoints
 
@@ -40,18 +40,21 @@ shared expenses and simplified balance settlements.
 ### View Balances
 - `GET /balances` – View simplified balances (who owes whom)
 
----
+
 
 ## 🧪 API Testing (Swagger)
 
 Once the server is running, APIs can be tested using Swagger UI:
+http://127.0.0.1:8000/docs
+
+Swagger provides an interactive interface to execute requests and view responses.
 
 ## How to Run Locally
 pip install -r requirements.txt  
 uvicorn main:app --reload
 
-Swagger UI available at:
-http://127.0.0.1:8000/docs
+Server will start at:
+http://127.0.0.1:8000
 
 ## Screenshots
 ![Balances API](screenshots/Balances.png.png)
@@ -67,6 +70,7 @@ http://127.0.0.1:8000/docs
 
 
 ![Schemas UI](screenshots/Schemas.png.png)
+
 
 
 
