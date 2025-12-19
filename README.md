@@ -52,3 +52,13 @@ uvicorn main:app --reload
 
 Swagger UI available at:
 http://127.0.0.1:8000/docs
+
+## Screenshots
+![Balances API](screenshots/Balances.png.png)
+![Swagger UI](screenshots/Swagger.png.png)
+![Exact Expense API](screenshots/Exact_expense.png.png)
+![Expense Percent](screenshots/Expense_percent.png.png)
+![Schemas UI](screenshots/Schemas.png.png)
+
+
+
